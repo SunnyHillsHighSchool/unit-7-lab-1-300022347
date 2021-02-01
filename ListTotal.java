@@ -6,10 +6,17 @@
 import java.util.List;
 import java.util.ArrayList;
 
+
 public class ListTotal
 {
+ 
  public static int total( List<Integer> ray )
  {
-  return 0;
+  int totalNumber = 0;
+  for(int i=0; i< ray.size(); i++) 
+  {
+    totalNumber += ray.get(i);
+  }
+  return totalNumber;
  }
 }
